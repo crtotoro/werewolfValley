@@ -1,7 +1,8 @@
 import React from 'react'
+import { toTitleCase } from '../../js/util/helpers'
 
-export default function PanelHeader() {
+export default function PanelHeader({ panel }) {
   return (
-    <div>PanelHeader</div>
+    <h3>{toTitleCase(panel)}</h3>
   )
 }

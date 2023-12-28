@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './Header'
 import Nav from './Nav.jsx'
-import Panel from './Panel'
+import Panels from './Panels.jsx'
 
 export default function App() {
   return (
-    <>
+    <div className='app'>
       <Header />
       <Nav />
-      <Panel />
-    </>
+      <Panels />
+    </div>
   )
 }

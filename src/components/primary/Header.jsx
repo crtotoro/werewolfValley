@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div className='header'>Werewolf Valley</div>
+    <h1 className='header'>Werewolf Valley</h1>
   )
 }

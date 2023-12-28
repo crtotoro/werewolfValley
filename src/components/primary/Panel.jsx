@@ -1,11 +1,10 @@
 import React from 'react'
 import PanelHeader from './PanelHeader'
 
-export default function Panel() {
+export default function Panel({ panel }) {
   return (
-    <div className='panel'>
-      Panel
-      <PanelHeader />
+    <div id={`${panel}-panel`} className={`panel`}>
+      <PanelHeader panel={panel} />
     </div>
   )
 }
