@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'God Hells';
-  src: url('./assets/fonts/God\ Hells.ttf');
+  src: url('./assets/fonts/GodHells.ttf') format('truetype');
 }
 
 :root {
@@ -26,4 +26,11 @@ body {
   background-color: var(--color-dark);
   color: var(--color-light);
   font-family: var(--font-content);
+  padding: 1rem;
+}
+
+.header {
+  font-family: var(--font-header);
+  width: 100%;
+  text-align: center;
 }
